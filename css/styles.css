@@ -830,12 +830,12 @@ margin-bottom: 20px;
     width: 16px;
     height: 15px;
     background-origin: border-box;
-    background-image: url('/images/check.jpg');
+    background-image: url("../images/check.jpg");
 }   
 
 
 .inp-check:checked + .mod-chec::after{ 
-    background-image: url('/images/check-act.jpg');
+    background-image: url("../images/check-act.jpg");
 }
 
 .form-btn {
